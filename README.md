@@ -9,7 +9,7 @@ This project aims to predict whether it will rain the next day using historical 
 The dataset is sourced from **Kaggle** and includes daily weather observations. Each row represents weather data for a specific day with the following features:
 
 - `day` – The day of observation  
-- `pressure` – Atmospheric pressure  
+- `pressure` – Atmospheric pressure
 - `maxtemp` – Maximum temperature recorded  
 - `temparature` – Average temperature of the day  
 - `mintemp` – Minimum temperature recorded  
