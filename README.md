@@ -1,11 +1,37 @@
-🌧️ Rainfall Prediction
-This project explores the challenge of predicting rainfall using machine learning techniques. The dataset includes various meteorological features like temperature, humidity, wind conditions, and other atmospheric variables that can influence rainfall events.
+🌧️ Rainfall Prediction using Machine Learning
+This project aims to predict whether it will rain the next day using historical weather data. With timely and accurate rainfall predictions, such models can support better agricultural planning, disaster preparedness, and general weather forecasting.
 
-📊 About the Dataset
-The dataset consists of historical weather observations, with each row representing a day's measurements and a target label indicating whether it rained or not. It includes both numerical and categorical features relevant to atmospheric conditions. This data allows us to train models that can learn patterns and make reliable predictions about future rainfall.
+📁 About the Dataset
+The dataset is sourced from Kaggle and includes daily weather observations. Each row represents weather data for a specific day with the following features:
 
-🔍 What I Did
-I applied and compared multiple classification algorithms to solve the prediction task:
+day – The day of observation
+
+pressure – Atmospheric pressure
+
+maxtemp – Maximum temperature recorded
+
+temparature – Average temperature of the day
+
+mintemp – Minimum temperature recorded
+
+dewpoint – Dew point temperature
+
+humidity – Humidity level (%)
+
+cloud – Cloud cover level
+
+rainfall – Amount of rainfall (mm)
+
+sunshine – Hours of sunshine
+
+winddirection – Direction of the wind
+
+windspeed – Speed of the wind
+
+The target variable is whether it rained the next day, making this a binary classification problem. The dataset contains a mix of numerical and categorical features, which were cleaned and preprocessed before training.
+
+🧠 Models Applied
+Several classification algorithms were used and evaluated:
 
 Logistic Regression
 
@@ -17,4 +43,5 @@ Decision Tree
 
 Random Forest
 
-Among all the models, Random Forest performed the best, achieving an accuracy of 86%, making it the most robust choice for this problem.
+✅ Best Model Performance
+Out of all the models tested, the Random Forest classifier achieved the highest accuracy of 86%, proving to be the most reliable for this prediction task.
